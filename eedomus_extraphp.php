@@ -10,18 +10,12 @@
 //
 // Fonction PHP is_bool():boolean (true/false)
 function sdk_is_bool($data) {
-    $reply = false;
-    $type = gettype($data);
-    if ($type == 'boolean') {$reply = true;}
-    return $reply;
+	return (gettype($data) == 'boolean');
 }
 
 // Fonction PHP is_array():boolean (true/false)
 function sdk_is_array($data) {
-    $reply = false;
-    $type = gettype($data);
-    if ($type== 'array') {$reply = true;}
-    return $reply;
+	return (gettype($data) == 'array');
 }
 
 // Fonction PHP json_encode():string - pour l'instant gère 3 niveaux "seulement"
