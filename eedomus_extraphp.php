@@ -1,6 +1,11 @@
 //
 //----------------------------------------------------------------
-// Déclaration des fonctions complémentaires aux fonctions eedomus
+// Déclaration des fonctions complémentaires aux fonctions Eedomus
+// pour contourner les fonctions php bloquées sur la box Eedomus 
+//       sdk_is_bool
+//	 sdk_is_array
+//	 sdk_json_encode (fonctionne que sur 3 niveaux)
+//	 sdk_generateRandomString
 //----------------------------------------------------------------
 //
 // Fonction PHP is_bool():boolean (true/false)
