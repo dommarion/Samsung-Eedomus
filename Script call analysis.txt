@@ -1,0 +1,116 @@
+Insertion de l'instruction : var_dump(get_included_files()); en fin du script control.php ou gettokken.php		
+ANALYSE DES APPELS DE SCRIPTS (nombre appelé - nombre répertoire)		
+1	"C:\MAMP\htdocs\samsocket\control.php" 	
+2	"C:\MAMP\htdocs\samsocket\settings.php" 	
+3	"C:\MAMP\htdocs\samsocket\vendor\autoload.php" 	
+4	appelés:3	sur:3
+5	"C:\MAMP\htdocs\samsocket\vendor\composer\autoload_real.php" 	
+6	"C:\MAMP\htdocs\samsocket\vendor\composer\autoload_static.php" 	
+7	"C:\MAMP\htdocs\samsocket\vendor\composer\ClassLoader.php" 	
+8	appelés:3	sur:7
+9	"C:\MAMP\htdocs\samsocket\vendor\evenement\evenement\src\Evenement\EventEmitter.php" 	
+10	"C:\MAMP\htdocs\samsocket\vendor\evenement\evenement\src\Evenement\EventEmitterInterface.php" 	
+11	"C:\MAMP\htdocs\samsocket\vendor\evenement\evenement\src\Evenement\EventEmitterTrait.php" 	
+12	appelés:3	sur:3
+13	"C:\MAMP\htdocs\samsocket\vendor\guzzlehttp\psr7\src\functions.php" 	
+14	"C:\MAMP\htdocs\samsocket\vendor\guzzlehttp\psr7\src\functions_include.php" 	
+15	"C:\MAMP\htdocs\samsocket\vendor\guzzlehttp\psr7\src\MessageTrait.php" 	
+16	"C:\MAMP\htdocs\samsocket\vendor\guzzlehttp\psr7\src\Request.php" 	
+17	"C:\MAMP\htdocs\samsocket\vendor\guzzlehttp\psr7\src\Response.php" 	
+18	"C:\MAMP\htdocs\samsocket\vendor\guzzlehttp\psr7\src\Rfc7230.php" 	
+19	"C:\MAMP\htdocs\samsocket\vendor\guzzlehttp\psr7\src\Stream.php" 	
+20	"C:\MAMP\htdocs\samsocket\vendor\guzzlehttp\psr7\src\Uri.php" 	
+21	appelés:8	sur:25
+22	"C:\MAMP\htdocs\samsocket\vendor\psr\http-message\src\MessageInterface.php" 	
+23	"C:\MAMP\htdocs\samsocket\vendor\psr\http-message\src\RequestInterface.php" 	
+24	"C:\MAMP\htdocs\samsocket\vendor\psr\http-message\src\ResponseInterface.php" 	
+25	"C:\MAMP\htdocs\samsocket\vendor\psr\http-message\src\StreamInterface.php" 	
+26	"C:\MAMP\htdocs\samsocket\vendor\psr\http-message\src\UriInterface.php" 	
+27	appelés:5	sur:7
+28	"C:\MAMP\htdocs\samsocket\vendor\ralouphie\getallheaders\src\getallheaders.php" 	
+29	appelé:1	sur:1
+30	"C:\MAMP\htdocs\samsocket\vendor\ratchet\pawl\src\Connector.php" 	
+31	"C:\MAMP\htdocs\samsocket\vendor\ratchet\pawl\src\functions.php" 	
+32	"C:\MAMP\htdocs\samsocket\vendor\ratchet\pawl\src\functions_include.php" 	
+33	"C:\MAMP\htdocs\samsocket\vendor\ratchet\pawl\src\WebSocket.php" 	
+34	appelés:4	sur:4
+35	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Handshake\ClientNegotiator.php" 	
+36	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Handshake\NegotiatorInterface.php" 	
+37	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Handshake\ResponseVerifier.php" 	
+38	appelés:3	sur:5
+39	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Messaging\CloseFrameChecker.php" 	
+40	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Messaging\DataInterface.php" 	
+41	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Messaging\Frame.php" 	
+42	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Messaging\FrameInterface.php" 	
+43	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Messaging\Message.php" 	
+44	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Messaging\MessageBuffer.php" 	
+45	"C:\MAMP\htdocs\samsocket\vendor\ratchet\rfc6455\src\Messaging\MessageInterface.php" }	
+46	appelés:7	sur:7
+47	C:\MAMP\htdocs\samsocket\vendor\react\cache\src	
+48	appelé:0	sur:2
+49	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Config\Config.php" 	
+50	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Config\HostsFile.php" 	
+51	appelés:2	sur:2
+52	C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Model	
+53	appelé:0	sur:2
+54	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Protocol\BinaryDumper.php" 	
+55	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Protocol\Parser.php" 	
+56	appelés:2	sur:2
+57	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Query\CoopExecutor.php" 	
+58	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Query\ExecutorInterface.php" 	
+59	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Query\HostsFileExecutor.php" 	
+60	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Query\RetryExecutor.php" 	
+61	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Query\SelectiveTransportExecutor.php" 	
+62	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Query\TcpTransportExecutor.php" 	
+63	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Query\TimeoutExecutor.php" 	
+64	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Query\UdpTransportExecutor.php" 	
+65	appelés:8	sur:12
+66	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Resolver\Factory.php" 	
+67	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Resolver\Resolver.php" 	
+68	"C:\MAMP\htdocs\samsocket\vendor\react\dns\src\Resolver\ResolverInterface.php" 	
+69	appelés:3	sur:3
+70	"C:\MAMP\htdocs\samsocket\vendor\react\event-loop\src\Factory.php" 	
+71	"C:\MAMP\htdocs\samsocket\vendor\react\event-loop\src\LoopInterface.php" 	
+72	"C:\MAMP\htdocs\samsocket\vendor\react\event-loop\src\SignalsHandler.php" 	
+73	"C:\MAMP\htdocs\samsocket\vendor\react\event-loop\src\StreamSelectLoop.php" 	
+74	"C:\MAMP\htdocs\samsocket\vendor\react\event-loop\src\TimerInterface.php" 	
+75	appelés:5	sur:10
+76	"C:\MAMP\htdocs\samsocket\vendor\react\event-loop\src\Tick\FutureTickQueue.php" 	
+77	appelé:1	sur:1
+78	"C:\MAMP\htdocs\samsocket\vendor\react\event-loop\src\Timer\Timer.php" 	
+79	"C:\MAMP\htdocs\samsocket\vendor\react\event-loop\src\Timer\Timers.php" 	
+80	appelés:2	sur:2
+81	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\CancellablePromiseInterface.php" 	
+82	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\Deferred.php" 	
+83	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\ExtendedPromiseInterface.php" 	
+84	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\FulfilledPromise.php" 	
+85	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\functions.php" 	
+86	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\functions_include.php" 	
+87	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\Promise.php" 	
+88	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\PromiseInterface.php" 	
+89	"C:\MAMP\htdocs\samsocket\vendor\react\promise\src\PromisorInterface.php" 	
+90	appelés:9	sur:13
+91	C:\MAMP\htdocs\samsocket\vendor\react\promise\src\Exception\	
+92	appelé:0	sur:1
+93	"C:\MAMP\htdocs\samsocket\vendor\react\promise-timer\src\functions.php" 	
+94	"C:\MAMP\htdocs\samsocket\vendor\react\promise-timer\src\functions_include.php" 	
+95	appelés:2	sur:3
+96	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\Connection.php" 	
+97	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\ConnectionInterface.php" 	
+98	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\Connector.php" 	
+99	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\ConnectorInterface.php" 	
+100	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\DnsConnector.php" 	
+101	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\SecureConnector.php" 	
+102	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\StreamEncryption.php" 	
+103	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\TcpConnector.php" 	
+104	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\TimeoutConnector.php" 	
+105	"C:\MAMP\htdocs\samsocket\vendor\react\socket\src\UnixConnector.php" 	
+106	appelés:10	sur:17
+107	"C:\MAMP\htdocs\samsocket\vendor\react\stream\src\DuplexResourceStream.php" 	
+108	"C:\MAMP\htdocs\samsocket\vendor\react\stream\src\DuplexStreamInterface.php" 	
+109	"C:\MAMP\htdocs\samsocket\vendor\react\stream\src\ReadableStreamInterface.php" 	
+110	"C:\MAMP\htdocs\samsocket\vendor\react\stream\src\Util.php" 	
+111	"C:\MAMP\htdocs\samsocket\vendor\react\stream\src\WritableResourceStream.php" 	
+112	"C:\MAMP\htdocs\samsocket\vendor\react\stream\src\WritableStreamInterface.php" 	
+113	appelés:6	sur:9
+Somme	appelés:87	sur:141
