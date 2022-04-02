@@ -1,0 +1,48 @@
+Les 47 fichiers restant triés par taille décroissante.
+vendor\guzzlehttp\psr7\src\functions.php 27k
+vendor\guzzlehttp\psr7\src\Uri.php 22k
+vendor\react\event-loop\src\LoopInterface.php 19k
+vendor\composer\ClassLoader.php 14k
+vendor\psr\http-message\src\UriInterface.php 13k
+vendor\react\event-loop\src\StreamSelectLoop.php 10k
+vendor\react\promise\src\functions.php 9k
+vendor\react\promise\src\Promise.php 9k
+vendor\psr\http-message\src\MessageInterface.php 7k
+vendor\guzzlehttp\psr7\src\MessageTrait.php 6k
+vendor\ratchet\pawl\src\Connector.php 6k
+vendor\psr\http-message\src\RequestInterface.php 5k
+vendor\react\socket\src\Connector.php 5k
+vendor\react\socket\src\ConnectorInterface.php 5k
+vendor\react\socket\src\StreamEncryption.php 5k
+vendor\react\socket\src\TcpConnector.php 5k
+vendor\composer\autoload_static.php 4k
+vendor\guzzlehttp\psr7\src\Request.php 4k
+vendor\composer\autoload_real.php 3k
+vendor\react\event-loop\src\Timer\Timers.php 3k
+vendor\react\promise\src\RejectedPromise.php 3k
+vendor\react\promise-timer\src\functions.php 3k
+vendor\react\socket\src\SecureConnector.php 3k
+vendor\ralouphie\getallheaders\src\getallheaders.php 2k
+vendor\ratchet\rfc6455\src\Handshake\ClientNegotiator.php 2k
+vendor\ratchet\rfc6455\src\Handshake\ResponseVerifier.php 2k
+vendor\react\event-loop\src\Factory.php 2k
+vendor\react\event-loop\src\SignalsHandler.php  2k
+vendor\react\event-loop\src\Tick\FutureTickQueue.php 2k
+vendor\react\event-loop\src\Timer\Timer.php 2k
+vendor\react\promise\src\Deferred.php 2k
+vendor\react\promise\src\FulfilledPromise.php  2k
+vendor\react\socket\src\TimeoutConnector.php 2k
+vendor\guzzlehttp\psr7\src\functions_include.php 1k
+vendor\ratchet\pawl\src\functions.php  1k
+vendor\ratchet\pawl\src\functions_include.php 1k
+vendor\react\event-loop\src\TimerInterface.php 1k
+vendor\react\promise\src\CancellablePromiseInterface.php 1k
+vendor\react\promise\src\ExtendedPromiseInterface.php 1k
+vendor\react\promise\src\functions_include.php 1k
+vendor\react\promise\src\PromiseInterface.php 1k
+vendor\react\promise\src\PromisorInterface.php 1k
+vendor\react\promise-timer\src\functions_include.php 1k
+vendor\react\promise-timer\src\TimeoutException.php 1k
+gettoken.php 
+settings.php
+vendor\autoload.php 
