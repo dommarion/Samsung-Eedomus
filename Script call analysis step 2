@@ -1,0 +1,82 @@
+Files called after modification of the file: vendor\react\socket\src\Connector.php ($options += array('tcp' => false,'tls' => true,'unix' => false,'dns' => false,'timeout' => true,);
+1. file: settings.php
+array(2) { 
+[0]=> string(38) "C:\xampp\htdocs\SamsungTV\gettoken.php" 
+[1]=> string(38) "C:\xampp\htdocs\SamsungTV\settings.php" }
+2. file: vendor/autoload.php
+array(15) { 
+[2]=> string(45) "C:\xampp\htdocs\SamsungTV\vendor\autoload.php" 
+[3]=> string(59) "C:\xampp\htdocs\SamsungTV\vendor\composer\autoload_real.php" 
+[4]=> string(57) "C:\xampp\htdocs\SamsungTV\vendor\composer\ClassLoader.php" 
+[5]=> string(61) "C:\xampp\htdocs\SamsungTV\vendor\composer\autoload_static.php" 
+[6]=> string(72) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\functions_include.php" 
+[7]=> string(64) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\functions.php" 
+[8]=> string(78) "C:\xampp\htdocs\SamsungTV\vendor\react\promise-timer\src\functions_include.php" 
+[9]=> string(70) "C:\xampp\htdocs\SamsungTV\vendor\react\promise-timer\src\functions.php" 
+[10]=> string(78) "C:\xampp\htdocs\SamsungTV\vendor\ralouphie\getallheaders\src\getallheaders.php" 
+[11]=> string(74) "C:\xampp\htdocs\SamsungTV\vendor\guzzlehttp\psr7\src\functions_include.php" 
+[12]=> string(66) "C:\xampp\htdocs\SamsungTV\vendor\guzzlehttp\psr7\src\functions.php" 
+[13]=> string(71) "C:\xampp\htdocs\SamsungTV\vendor\ratchet\pawl\src\functions_include.php" 
+[14]=> string(63) "C:\xampp\htdocs\SamsungTV\vendor\ratchet\pawl\src\functions.php" }
+3. declaration: $loop = \React\EventLoop\Factory::create();
+array(21) { 
+[15]=> string(65) "C:\xampp\htdocs\SamsungTV\vendor\react\event-loop\src\Factory.php" 
+[16]=> string(74) "C:\xampp\htdocs\SamsungTV\vendor\react\event-loop\src\StreamSelectLoop.php" 
+[17]=> string(71) "C:\xampp\htdocs\SamsungTV\vendor\react\event-loop\src\LoopInterface.php" 
+[18]=> string(78) "C:\xampp\htdocs\SamsungTV\vendor\react\event-loop\src\Tick\FutureTickQueue.php" 
+[19]=> string(70) "C:\xampp\htdocs\SamsungTV\vendor\react\event-loop\src\Timer\Timers.php" 
+[20]=> string(72) "C:\xampp\htdocs\SamsungTV\vendor\react\event-loop\src\SignalsHandler.php" }
+4. declaration: $reactConnector = new \React\Socket\Connector($loop, array(
+  'tls' => array(
+      'verify_peer' => false,
+      'verify_peer_name' => false
+  ),
+));
+array(24) { 
+[21]=> string(63) "C:\xampp\htdocs\SamsungTV\vendor\react\socket\src\Connector.php" 
+[22]=> string(72) "C:\xampp\htdocs\SamsungTV\vendor\react\socket\src\ConnectorInterface.php" 
+[23]=> string(66) "C:\xampp\htdocs\SamsungTV\vendor\react\socket\src\TcpConnector.php" 
+
+[24]=> string(69) "C:\xampp\htdocs\SamsungTV\vendor\react\socket\src\SecureConnector.php" 
+[25]=> string(70) "C:\xampp\htdocs\SamsungTV\vendor\react\socket\src\StreamEncryption.php" 
+[26]=> string(70) "C:\xampp\htdocs\SamsungTV\vendor\react\socket\src\TimeoutConnector.php"
+
+5. declaration: $connector = new \Ratchet\Client\Connector($loop, $reactConnector);
+array(36) { 
+[27]=> string(63) "C:\xampp\htdocs\SamsungTV\vendor\ratchet\pawl\src\Connector.php" 
+[28]=> string(83) "C:\xampp\htdocs\SamsungTV\vendor\ratchet\rfc6455\src\Handshake\ClientNegotiator.php" 
+[29]=> string(83) "C:\xampp\htdocs\SamsungTV\vendor\ratchet\rfc6455\src\Handshake\ResponseVerifier.php" 
+[30]=> string(64) "C:\xampp\htdocs\SamsungTV\vendor\guzzlehttp\psr7\src\Request.php" 
+[31]=> string(69) "C:\xampp\htdocs\SamsungTV\vendor\guzzlehttp\psr7\src\MessageTrait.php" 
+[32]=> string(74) "C:\xampp\htdocs\SamsungTV\vendor\psr\http-message\src\RequestInterface.php" 
+[33]=> string(74) "C:\xampp\htdocs\SamsungTV\vendor\psr\http-message\src\MessageInterface.php" 
+[34]=> string(60) "C:\xampp\htdocs\SamsungTV\vendor\guzzlehttp\psr7\src\Uri.php" 
+[35]=> string(70) "C:\xampp\htdocs\SamsungTV\vendor\psr\http-message\src\UriInterface.php" 
+
+6. instruction: $connector('uri vide')
+    ->then(function(Ratchet\Client\WebSocket $conn) {
+        $conn->on('message', function(\Ratchet\RFC6455\Messaging\MessageInterface $msg) use ($conn) {
+            echo "Received: {$msg}\n";
+            $conn->close();
+        });
+
+        $conn->on('close', function($code = null, $reason = null) {
+            echo "Connection closed ({$code} - {$reason})\n";
+        });
+
+    }, function(\Exception $e) use ($loop) {
+        echo "Could not connect : {$e->getMessage()}\n";
+        $loop->stop();
+    });
+array(47) { 
+[36]=> string(62) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\Promise.php" 
+[37]=> string(79) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\ExtendedPromiseInterface.php" 
+[38]=> string(71) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\PromiseInterface.php" 
+[39]=> string(82) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\CancellablePromiseInterface.php" 
+[40]=> string(69) "C:\xampp\htdocs\SamsungTV\vendor\react\event-loop\src\Timer\Timer.php" 
+[41]=> string(72) "C:\xampp\htdocs\SamsungTV\vendor\react\event-loop\src\TimerInterface.php" 
+[42]=> string(63) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\Deferred.php" 
+[43]=> string(72) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\PromisorInterface.php" 
+[44]=> string(77) "C:\xampp\htdocs\SamsungTV\vendor\react\promise-timer\src\TimeoutException.php" 
+[45]=> string(70) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\RejectedPromise.php" 
+[46]=> string(71) "C:\xampp\htdocs\SamsungTV\vendor\react\promise\src\FulfilledPromise.php" }
